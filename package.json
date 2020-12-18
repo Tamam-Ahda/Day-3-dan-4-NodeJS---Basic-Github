@@ -6,7 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/tamamahda47/latihan-gitlab.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tamamahda47/latihan-gitlab/issues"
+  },
+  "homepage": "https://gitlab.com/tamamahda47/latihan-gitlab#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
