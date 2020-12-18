@@ -1,9 +1,25 @@
 const express = require('express');
 const app = express();
-const port = 5000;
+const port = 3000;
 
-app.get('/', function(req, res){
-  res.send('Hello My name is YOUR_NAME');
+app.get("/", function(req, res){
+  res.send("Hello My name is YOUR_NAME");
+});
+
+app.post("/", function (req, res) {
+  res.send("Hello My name is YOUR_NAME but it from post");
+});
+
+app.put("/", function (req, res) {
+  res.send("Hello My name is YOUR_NAME but it from put");
+});
+
+app.patch("/", function (req, res) {
+  res.send("Hello My name is YOUR_NAME but it from patch");
+});
+
+app.delete("/", function (req, res) {
+  res.send("Hello My name is YOUR_NAME but it from patch");
 });
 
 app.listen(port, function(){
